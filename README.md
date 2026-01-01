@@ -1,4 +1,4 @@
-# The-Nohing-Website
+# The-Nothing-Website
 
 It Really Does Nothing
 
