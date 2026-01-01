@@ -1,0 +1,20 @@
+body {
+  background: #ffd49d;
+  color: rgb(87, 35, 5);
+  font-family: 'Times New Roman', Times, serif;
+  height: 100vh;
+  margin: 0;
+  overflow: hidden;
+}
+
+h1 {
+  text-align: center;
+}
+
+#mark {
+  position: fixed;
+  top: 20px;
+  right: 30px;
+  width: 40px;
+  cursor: pointer;
+}
