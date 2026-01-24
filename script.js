@@ -1,5 +1,6 @@
 var button = document.getElementById("button");
 var text = document.getElementById("text");
+var x = 0;
 
 var messages = [
   "Take A Break",
@@ -42,6 +43,6 @@ var messages = [
 ];
 
 button.addEventListener("click", function () {
-  var randex = Math.floor(Math.random() * messages.length);
-  text.textContent = messages[randex];
+  text.textContent = messages[x];
+  x = x + 1
 });

@@ -35,12 +35,3 @@ button {
   width: 40px;
   cursor: pointer;
 }
-
-#Sunghooned {
-  width: 10em;
-  position: absolute;
-  bottom: 25%;
-  left: 50%;
-  transform: translateX(-50%);
-  cursor: pointer;
-}
