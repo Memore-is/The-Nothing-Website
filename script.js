@@ -31,7 +31,7 @@ var messages = [
   "*|*|*|*",
   "HELPLESS",
   "wash ur own dishes",
-  "the fridge is judging you",
+  "the fudge is judging you",
   "we dont talk bout u",
   "friends? nah",
   "hehehe",
@@ -39,7 +39,6 @@ var messages = [
   "D+RAM+A",
   "IHATEJAVASCRIPT",
   "go .",
-
 ];
 
 button.addEventListener("click", function () {
