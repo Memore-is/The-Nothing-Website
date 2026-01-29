@@ -1,7 +1,3 @@
-var button = document.getElementById("button");
-var text = document.getElementById("text");
-var x = 0;
-
 var messages = [
   "Take A Break",
   "eHh HeM",
@@ -42,7 +38,14 @@ var messages = [
   "go .",
 ];
 
-button.addEventListener("click", function () {
-  text.textContent = messages[x];
-  x = x + 1
-});
+var x = 0;
+
+document.getElementById("button").onclick = function () {
+  if (x < messages.length) {
+    document.getElementById("text").textContent = messages[x];
+    x = x + 1;
+
+  } else {
+    document.getElementById("link").click()
+  }
+};
