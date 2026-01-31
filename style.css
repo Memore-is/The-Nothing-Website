@@ -1,6 +1,6 @@
 body {
   background: #ffd49d;
-  color: rgb(87, 35, 5);
+  color: #572305;
   font-family: 'Ribeye Marrow', system-ui;
   font-size: 40px;
   height: 100vh;
@@ -33,5 +33,15 @@ button {
   top: 20px;
   right: 30px;
   width: 40px;
+  cursor: pointer;
+}
+
+#cats {
+  width: 10em;
+  height: 10em;
+  position: absolute;
+  bottom: 25%;
+  left: 50%;
+  transform: translateX(-50%);
   cursor: pointer;
 }

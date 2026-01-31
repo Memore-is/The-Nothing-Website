@@ -1,3 +1,4 @@
+const catImg = document.getElementById("cats");
 var messages = [
   "Take A Break",
   "eHh HeM",
@@ -39,11 +40,17 @@ var messages = [
 ];
 
 var x = 0;
-
 document.getElementById("button").onclick = function () {
   if (x < messages.length) {
     document.getElementById("text").textContent = messages[x];
     x = x + 1;
+
+    fetch("https://api.thecatapi.com/v1/images/search")
+    .then(response => response.json())
+    .then(data => {
+      catImg.src = data[0].url;
+    })
+    .catch(e => console.log(e));
 
   } else {
     document.getElementById("link").click()
