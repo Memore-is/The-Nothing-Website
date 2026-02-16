@@ -23,7 +23,7 @@ h3 {
   line-height: 23;
 }
 
-h4 {
+h4, h5 {
   text-align: center;
   color: rgb(189, 189, 189);
   font-size: 10px;
