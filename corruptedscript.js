@@ -1,5 +1,6 @@
 document.getElementById("giftbox").onclick = function () {
     window.location.href = "broken.html";
+}
 
 document.getElementById("button").onclick = function () {
     fetch("https://icanhazdadjoke.com/", {
@@ -10,5 +11,6 @@ document.getElementById("button").onclick = function () {
         document.getElementById("text").textContent = data
     })
     .catch(e => console.log(e));
-    };
-}
+
+    giftbox.style.left = Math.random() * Math.random() * 10567 + "px";
+};

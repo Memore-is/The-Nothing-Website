@@ -39,7 +39,7 @@ body {
   #giftbox {
     width: 10em;
     position: absolute;
-    bottom: 25%;
+    bottom: 20%;
     left: 50%;
     transform: translateX(-50%);
     cursor: pointer;
