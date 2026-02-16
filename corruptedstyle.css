@@ -1,5 +1,5 @@
 body {
-  background: rgb(18, 15, 15);
+  background: rgb(0, 0, 0);
   color: #51ff00;
   font-family: 'Ribeye Marrow', system-ui;
   font-size: 40px;
@@ -11,9 +11,9 @@ body {
 h1 {
   text-align: center;
 }
-  
+
 button {
-  background-color: rgb(255, 0, 149);
+  background-color: rgb(255, 0, 162);
   color: #acff06;
   font-size: 20px;
   font-family: 'Barrio', system-ui;
