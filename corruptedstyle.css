@@ -1,46 +1,46 @@
 body {
-    background: rgb(18, 15, 15);
-    color: #51ff00;
-    font-family: 'Ribeye Marrow', system-ui;
-    font-size: 40px;
-    height: 100vh;
-    margin: 0;
-    overflow: hidden;
-  }
+  background: rgb(18, 15, 15);
+  color: #51ff00;
+  font-family: 'Ribeye Marrow', system-ui;
+  font-size: 40px;
+  height: 100vh;
+  margin: 0;
+  overflow: hidden;
+}
   
-  h1 {
-    text-align: center;
-  }
+h1 {
+  text-align: center;
+}
   
-  button {
-    background-color: rgb(255, 0, 149);
-    color: #acff06;
-    font-size: 20px;
-    font-family: 'Barrio', system-ui;
-    border: none;
-    border-radius: 6px;
-  
-    position: absolute;
-    bottom: 10%;
-    left: 50%;
-    transform: translateX(-50%);
-    cursor: pointer;
-    padding: 12px 20px;
-  }
-  
-  #mark {
-    position: fixed;
-    top: 20px;
-    right: 30px;
-    width: 40px;
-    cursor: pointer;
-  }
-  
-  #giftbox {
-    width: 10em;
-    position: absolute;
-    bottom: 20%;
-    left: 50%;
-    transform: translateX(-50%);
-    cursor: pointer;
-  }
+button {
+  background-color: rgb(255, 0, 149);
+  color: #acff06;
+  font-size: 20px;
+  font-family: 'Barrio', system-ui;
+  border: none;
+  border-radius: 6px;
+
+  position: absolute;
+  bottom: 10%;
+  left: 50%;
+  transform: translateX(-50%);
+  cursor: pointer;
+  padding: 12px 20px;
+}
+
+#mark {
+  position: fixed;
+  top: 20px;
+  right: 30px;
+  width: 40px;
+  cursor: pointer;
+}
+
+#giftbox {
+  width: 10em;
+  position: absolute;
+  bottom: 20%;
+  left: 50%;
+  transform: translateX(-50%);
+  cursor: pointer;
+}

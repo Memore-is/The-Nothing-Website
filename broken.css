@@ -1,0 +1,20 @@
+body {
+  background-image: url(Sunghooned.gif);
+  background-repeat: repeat;
+  background-size: 20%;
+}
+
+h1 {
+  text-align: center;
+  color: rgb(255, 0, 221);
+  font-size: 50px;
+}
+
+#mark {
+  width: 25em;
+  position: absolute;
+  bottom: 25%;
+  left: 50%;
+  transform: translateX(-50%);
+  cursor: pointer;
+}
