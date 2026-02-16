@@ -7,6 +7,7 @@ var messages = [
   "trust me I just wanted fudge :)",
   "lazy is fun hah",
   "70UCH GR455",
+  "yeah the one on the other side",
   "HAPPY NEW YEAR!!!!",
   "Dont U Wait",
   "B-L-A-N-K",
@@ -14,13 +15,18 @@ var messages = [
   "want a song rec?",
   "FUDGE COLORED SITE YESS",
   "new year, old u",
+  "solid",
+  "relationship",
+  "advice: ",
+  "stay single lol cause why not",
   "well hello there friend",
   "404 FUN NOT FOUND",
   "what even is life?",
   "+ P_E_A_K + ",
   "><>*<><",
   "~",
-  "u tis bored?",
+  "copyrights are for copies, right?",
+  "u thisss bored?",
   "tis is random",
   "remember to leaf",
   "is tis a trap?",
@@ -45,6 +51,8 @@ var messages = [
   "Idontrememberthatnightjustguess why",
   "the fudge is judging you",
   "we dont talk bout u",
+  "doncha get bored?",
+  "oui oui, je'mapelle laf-",
   "friends? nah",
   "hehehe",
   "ain't I a genius?",
@@ -53,7 +61,7 @@ var messages = [
   "un-employed + going broke",
   "IHATEJAVASCRIPT",
   "go .",
-]; 
+];
 
 var x = 0;
 document.getElementById("button").onclick = function () {
